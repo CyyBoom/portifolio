@@ -11,14 +11,29 @@ function GitHubRepos() {
         console.log(data);
     }, []);
 
+    
+
    
     return (
-            <ul>
-            {repositories.map(repo => (
-                <li key={repo.id}><a href={repo.html_url}>{repo.name}</a></li>
-            ))}
-        </ul>
-      );
+        <div class="container">
+            <div class="row">
+                <div class="col-12"><h3 class="sobre">Repositórios GitHub</h3></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul className="repos">
+                        {repositories.map(repo => (
+                            <li key={repo.id}>
+                                <span className="hexagon"></span>
+                                <a href={repo.html_url}>{repo.name}</a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
+        </div>
+            
+    );
   }
   
 export default GitHubRepos;
