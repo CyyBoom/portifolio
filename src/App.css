@@ -123,6 +123,26 @@ nav.navbar.navbar-expand-md2 {
 	color: #000000;
 }
 
+.html {
+  width:90%;
+}
+
+.css {
+  width:80%;
+}
+
+.js {
+  width:80%;
+}
+
+.react {
+  width:60%;
+}
+
+.sass {
+  width:05%;
+}
+
 .progress-bar {
   background-color: #a88e99;
 }
