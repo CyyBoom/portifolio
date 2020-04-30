@@ -28,7 +28,7 @@ function Skills() {
             </div>
             <div className="col-md-8"><div className="progress">
                 <div className="progress-bar css" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                80%
+                90%
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ function Skills() {
             </div>
             <div className="col-md-8"><div className="progress">
                 <div className="progress-bar js" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                80%
+                90%
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ function Skills() {
               <div className="col-md-8">
                 <div className="progress">
               <div className="progress-bar sass" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                5%
+                90%
               </div>
             </div>
           </div>
