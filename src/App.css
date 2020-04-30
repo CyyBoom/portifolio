@@ -1,58 +1,45 @@
-body {
-
-}
-
 #cyy {
   color: #a88e99;
   font-size: 62px;
-  font-family: 'Shadows Into Light', cursive;
-}
+  font-family: 'Shadows Into Light', cursive; }
 
 nav.navbar.navbar-expand-md {
   background-color: #333;
   border-bottom: 4px solid #04c2c9;
-  padding: 35px;
-}
+  padding: 35px; }
 
 .navbar-dark .navbar-nav {
   float: right;
   right: 30px;
-  position: absolute;
-}
+  position: absolute; }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #04c2c9;
-}
+  color: #04c2c9; }
 
-.sobre {
+h3 {
   text-decoration: underline;
   text-align: center;
   padding: 72px 0 42px;
   text-transform: uppercase;
-	color: #000000;
-	font-weight: bold;
-  font-size: 22px;
-  
-}
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px; }
 
 .eu {
-  width: 100%;
-}
+  width: 100%; }
 
 .nimbus-is-editor {
   background: #e4ccd6;
-  display: block;
-}
+  display: block; }
 
 .hexagon {
   position: relative;
-  width: 16px; 
+  width: 16px;
   height: 9.62px;
   background-color: #64C7CC;
   margin: 9px 10px 0;
   display: block;
-  float: left;
-}
+  float: left; }
 
 .hexagon:before,
 .hexagon:after {
@@ -60,110 +47,75 @@ nav.navbar.navbar-expand-md {
   position: absolute;
   width: 0;
   border-left: 8.33px solid transparent;
-  border-right: 8.33px solid transparent;
-}
+  border-right: 8.33px solid transparent; }
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 4.81px solid #64C7CC;
-}
+  border-bottom: 4.81px solid #64C7CC; }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 4.81px solid #64C7CC;
-}
+  border-top: 4.81px solid #64C7CC; }
 
 ul {
-  list-style: none;
-}
-
-.contato {
-  text-decoration: underline;
-  text-align: center;
-  padding: 108px 0 30px;
-  text-transform: uppercase;
-	color: #000000;
-	font-weight: bold;
-	font-size: 22px;
-}
+  list-style: none; }
 
 .form-group {
-  min-width: 500px;
-}
+  min-width: 500px; }
 
 .btn.btn-light {
   background-color: #a88e99;
   color: #000000;
   float: right;
   font-size: 14px;
-  font-weight: bold;
-  }
+  font-weight: bold; }
+
+.lingua {
+  text-align: center;
+  padding: 5px 0;
+  color: #000000; }
+
+.html {
+  width: 90%; }
+
+.css {
+  width: 80%; }
+
+.js {
+  width: 80%; }
+
+.react {
+  width: 60%; }
+
+.sass {
+  width: 05%; }
+
+.progress-bar {
+  background-color: #a88e99; }
+
+.juntos {
+  color: #a88e99;
+  text-align: center;
+  text-decoration: bolder;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 32px; }
 
 nav.navbar.navbar-expand-md2 {
   background-color: #333;
   padding: 28px;
   margin: 5% 0 0 0;
-  border-top: 4px solid #04c2c9;
-}
-
-.linguagens {
-  text-decoration: underline;
-  text-align: center;
-  padding: 108px 0 30px;
-  text-transform: uppercase;
-	color: #000000;
-	font-weight: bold;
-  font-size: 22px;
-}
-
-.lingua {
-  text-align: center;
-  padding: 5px 0;
-	color: #000000;
-}
-
-.html {
-  width:90%;
-}
-
-.css {
-  width:80%;
-}
-
-.js {
-  width:80%;
-}
-
-.react {
-  width:60%;
-}
-
-.sass {
-  width:05%;
-}
-
-.progress-bar {
-  background-color: #a88e99;
-}
-
-.juntos {
-  color: #a88e99;
-  text-align: center;
-  font-family: 'Shadows Into Light', cursive;
-  font-size: 32px;
-  text-decoration: bolder;
-}
+  border-top: 4px solid #04c2c9; }
 
 .pkn {
   text-align: center;
-  padding: 72px 0 42px;
-}
+  padding: 72px 0 42px; }
 
 .rodape {
   color: #a88e99;
   text-align: center;
   padding: 20px 0 0px;
-	font-size: 22px;
-  font-family: 'Shadows Into Light', cursive;
-}
+  font-size: 22px;
+  font-family: 'Shadows Into Light', cursive; }
+
+/*# sourceMappingURL=App.css.map */

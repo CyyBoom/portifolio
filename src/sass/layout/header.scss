@@ -1,0 +1,22 @@
+//HEADER
+#cyy {
+    color: $main-color;
+    font-size: 62px;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+  nav.navbar.navbar-expand-md {
+    background-color: #333;
+    border-bottom: 4px solid $sec-color;
+    padding: 35px;
+  }
+  
+  .navbar-dark .navbar-nav {
+    float: right;
+    right: 30px;
+    position: absolute;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: $sec-color;
+  }

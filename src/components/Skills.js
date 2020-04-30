@@ -6,7 +6,7 @@ function Skills() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="linguagens">Linguagens</h3>
+              <h3>Linguagens</h3>
             </div>
           </div>
     

@@ -1,0 +1,112 @@
+//GENERAL
+h3 {
+    text-decoration: underline;
+    text-align: center;
+    padding: 72px 0 42px;
+    text-transform: uppercase;
+      color: #000000;
+      font-weight: bold;
+    font-size: 22px;
+    
+  }
+  
+  .eu {
+    width: 100%;
+  }
+  
+  .nimbus-is-editor {
+    background: #e4ccd6;
+    display: block;
+  }
+  
+  
+  //REPOSITÓRIOS
+  .hexagon {
+    position: relative;
+    width: 16px; 
+    height: 9.62px;
+    background-color: #64C7CC;
+    margin: 9px 10px 0;
+    display: block;
+    float: left;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    @include hexagon;
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 4.81px solid #64C7CC;
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 4.81px solid #64C7CC;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .form-group {
+    min-width: 500px;
+  }
+  
+  .btn.btn-light {
+    background-color: $main-color;
+    color: #000000;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    }
+  
+  
+  
+  //LINGUAGENS
+  .lingua {
+    text-align: center;
+    padding: 5px 0;
+      color: #000000;
+  }
+  
+  .html {
+    width:90%;
+  }
+  
+  .css {
+    width:80%;
+  }
+  
+  .js {
+    width:80%;
+  }
+  
+  .react {
+    width:60%;
+  }
+  
+  .sass {
+    width:05%;
+  }
+  
+  .progress-bar {
+    background-color: $main-color;
+  }
+  
+  
+  //COLAB
+  .juntos {
+    color: $main-color;
+    text-align: center;
+    text-decoration: bolder;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 32px;
+  }
+  
+  
